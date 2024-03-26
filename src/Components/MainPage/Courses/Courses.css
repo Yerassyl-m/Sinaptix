@@ -1,0 +1,29 @@
+.Courses-Container{
+    background-color: #F9FAFB;
+}
+
+.Courses-OneSide{
+    padding: 5rem 10rem;
+}
+.Course-Title{
+    font-size: 60px;
+    font-weight: bold;
+}
+.Courses-Text p{
+    color: #8C8C8C;
+    font-size: larger;
+}
+.Courses-Button{
+    width: 161px;
+    height: 44px;
+    background-color: #1677FF;
+    margin-top: 1rem;
+    border-radius: 9px;
+}
+
+.Courses-Button h6{
+    font-size: medium;
+    text-align: center;
+    padding-top: 10px;
+    color: white;
+}

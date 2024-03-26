@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.Header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #D2D5DA;
+    color: #2395D1;
+    padding: 10px 250px;
+}
+.Header-container h2,h6{
+    color: black;
+}
+.Header-container h2{
+    font-family: Mulish,  sans-serif bold;
+    margin-left: 1rem;
+    font-size: 25.71px;
+}
+.Header-container h6{
+    font-family: Golos, serif;
+    font-size: 18px;
+}
+.Header-SignIn{
+    padding-left: 10px;
+    border-radius: 10px;
+    width: 90px;
+    height: 40px;
+    background-color: #1677FF;
+    color: white;
+    cursor: pointer;
+    display: flex;
+}
+.Header-SignIn h6{
+    color: white;
+    margin-left: 1px;
+}
+.Header-Login{
+    cursor: pointer;
+}
+
+.Header-Logo {
+    display: flex;
+    align-items: center;
+    font-size: 25.7px;
+}
+
+.Header-SearchBar {
+    flex-grow: 1;
+    margin: 0 20px;
+}
+
+.Header-Favourites,
+.Header-card,
+.Header-SignIn {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.Header-Favourites button,
+.Header-card button {
+    background: none;
+    border: none;
+    color: inherit;
+    font-size: inherit;
+    cursor: pointer;
+}
+
+.Header-Favourites button:hover,
+.Header-card button:hover {
+
+    color: #ffd700;
+}
+.Header-SignIn Link{
+    list-style-type: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .Header-container {
+        flex-direction: column;
+        padding: 10px 20px;
+    }
+
+    .Header-Logo,
+    .Header-SignIn,
+    .Header-Favourites,
+    .Header-card {
+        margin: 10px 0;
+    }
+
+    .Header-SearchBar {
+        margin: 10px 0;
+    }
+
+    .Header-SignIn {
+        width: auto;
+    }
+}

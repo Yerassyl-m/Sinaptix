@@ -1,0 +1,90 @@
+
+.Category-Container {
+    display: flex;
+    justify-content: center;
+
+    border: 1px solid;
+}
+
+.Category-Container > div {
+    cursor: pointer;
+    text-align: center;
+    margin: 10px;
+    padding: 30px;
+    border-radius: 10px;
+    /*box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);*/
+    transition: transform 0.3s ease;
+}
+
+.Category-Container > div:hover {
+    transform: translateY(-5px);
+}
+
+.Category-Container > div > svg {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+.Category-design {
+    color: #1677FF;
+}
+
+.Category-Marketing {
+    color: #1677FF;
+
+}
+
+.Category-IT {
+    color: #1677FF;
+
+}
+
+.Category-Finance {
+    color: #1677FF;
+
+}
+
+.Category-Management {
+    color: #1677FF;
+
+}
+
+.Category-Science {
+    color: #1677FF;
+
+}
+
+.Category-Mobilography {
+    color: #1677FF;
+
+}
+
+.Category-Language {
+    color: #1677FF;
+
+}
+
+.Category-Other {
+    color: #1677FF;
+
+}
+
+.Category-Container h6 {
+    font-size: 16px;
+    font-weight: bold;
+}
+footer{
+    padding-top: 50px;
+}
+@media screen and (max-width: 768px) {
+    .Category-Container > div {
+        width: calc(50% - 20px);
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .Category-Container > div {
+        width: calc(100% - 20px);
+    }
+}

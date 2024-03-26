@@ -1,0 +1,105 @@
+.CoursesCategory{
+    margin-top: 5%;
+
+}
+.CoursesCategory-title{
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+    color: #1677FF;
+}
+.CoursesCategory h5{
+    color: #1677FF;
+    font-weight: bold;
+    font-size: medium;
+}
+.CoursesCategory-text{
+    text-align: center;
+    color: #696984;
+    font-size: medium;
+}
+.CoursesCategory-text p{
+    margin-top: 1rem;
+}
+.CoursesCategory-Category > div {
+    cursor: pointer;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    width: 275.95px;
+    height: 313.06px;
+}
+.CoursesCategory-Category {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.CoursesCategory-Category > div > svg {
+
+}
+
+.CoursesCategory-Button-Beauty {
+    width: 161px;
+    height: 44px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 1rem;
+    border-radius: 9px;
+    margin-left: 50px;
+}
+.CoursesCategory-Button-Beauty h6{
+    color:#1677FF ;
+    padding-top: 10px;
+    font-size: large;
+}
+
+.CoursesCategory-Button-Medical {
+    width: 161px;
+    height: 44px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 1rem;
+    border-radius: 9px;
+    margin-left: 50px;
+}
+
+.CoursesCategory-Button-Medical h6 {
+    color: #1677FF;
+    padding-top: 10px;
+    font-size: large;
+
+}
+
+.CoursesCategory-Button-Sports {
+    width: 161px;
+    height: 44px;
+    /*box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);*/
+    background-color: #1677FF;
+    margin-top: 1rem;
+    border-radius: 9px;
+    margin-left: 50px;
+}
+
+.CoursesCategory-Button-Sports h6 {
+    color: #ffff;
+    padding-top: 10px;
+    font-size: large;
+
+}
+.CoursesCategory-Button-Nutrition {
+    width: 161px;
+    height: 44px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 1rem;
+    border-radius: 9px;
+    margin-left: 50px;
+}
+
+.CoursesCategory-Button-Nutrition h6 {
+    color: #1677FF;
+    padding-top: 10px;
+    font-size: large;
+}

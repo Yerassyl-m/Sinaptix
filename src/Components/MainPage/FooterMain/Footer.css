@@ -1,0 +1,11 @@
+.Footer-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 1%;
+
+}
+.foot-content{
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+}
