@@ -3,6 +3,9 @@ import React, {useState} from 'react';
 // import {Link, Route} from 'react-router-dom'
 import image3012 from '../../res/IMG_3012.PNG'
 import './SignIn.css'
+import {Link} from "react-router-dom";
+
+// import axios from "axios";
 
 
 function SignIn() {
@@ -30,21 +33,25 @@ function SignIn() {
     return (
         <div className="form-container">
 
+
             <div className="left-container">
                 <div className="sign-form-img">
 
                     <div className="image-border">
-                        <img  src={image3012}/>
+                        <img src={image3012}/>
                     </div>
 
                     <h1>Sinaptix</h1>
                 </div>
             </div>
 
+
             <div className="right-container">
 
+                 <Link to="/LogIn" style={{width:"20%"} }><button type="Login"><h3>Login</h3></button></Link>
 
-                <form onSubmit={handleSubmit}>
+
+            <form onSubmit={handleSubmit}>
                     <h2>Create your account</h2>
                     <label>
                         Full Name
@@ -78,7 +85,6 @@ function SignIn() {
                         <select name="role" value={formData.role} onChange={handleChange}>
                             <option value="teacher">Teacher</option>
                             <option value="student">Student</option>
-
                         </select>
                     </label>
                     <label>
@@ -99,7 +105,7 @@ function SignIn() {
                             onChange={handleChange}
                         />
                     </label>
-                    <button type="submit">Create Account →</button>
+                   <Link to="/Sidebar"> <button type="submit">Create Account →</button></Link>
                 </form>
             </div>
         </div>

@@ -2,10 +2,10 @@ import React from "react";
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 
-import image1 from '../../res/IMG_3010.PNG'
-import image2 from '../../res/IMG_3015.PNG'
-import image3 from '../../res/IMG_3013.PNG'
-// import image4 from '../../res/IMG_3014.PNG'
+import image1 from '../../res/wes-hicks-4-EeTnaC1S4-unsplash 1.png'
+import image2 from '../../res/wes-hicks-4-EeTnaC1S4-unsplash.png'
+import image3 from '../../res/wes-hicks-4-EeTnaC1S4-unsplash 2.png'
+import image4 from '../../res/wes-hicks-4-EeTnaC1S4-unsplash 3.png'
 import './PopularCourses.css'
 
 export default function PopularCourses() {
@@ -58,24 +58,26 @@ export default function PopularCourses() {
                     <div className="card3">
                         <img className="product--image3" src={image3}/>
                         <div className="text3">
-                            <p>Flow Education</p>
-                            <h1>SMM-start for Beginner students</h1>
+                            <p>Aizhan Omirzak</p>
+                            <h1>How to SQL basic</h1>
                             <i>Beginner level</i>
                             <i>Mentor:yes</i>
                             <i>Certificate: yes</i>
-                            <h1 className="sale-prise3">Free</h1>
+                            <h1 className="sale-prise1">60 000 ₸</h1>
+                            <h2 className="price1">80 000 ₸</h2>
+
                         </div>
                     </div>
                 <div className="card4">
-                    <img className="product--image4" src={image3}/>
+                    <img className="product--image4" src={image4}/>
                     <div className="text4">
                         <p>Flow Education</p>
-                        <h1>SMM-start for Beginner students</h1>
+                        <h1>UX/UI Design</h1>
                         <i>Beginner level</i>
                         <i>Mentor:yes</i>
                         <i>Certificate: yes</i>
-                        <h1 className="sale-prise4">Free</h1>
-                    </div>
+                        <h1 className="sale-prise1">705 000 ₸</h1>
+                        <h2 className="price1">905 000 ₸</h2></div>
                 </div>
 
             </Carousel>

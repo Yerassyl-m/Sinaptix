@@ -1,0 +1,33 @@
+#sidebar {
+    width: 200px;
+    /*background-color: #f4f4f4;*/
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    padding: 1rem;
+    text-align: left;
+    border: silver 1px solid;
+}
+.Header-Logo {
+    display: flex;
+    align-items: center;
+    font-size: 25.7px;
+    font-family: Mulish, bold;
+}
+.Header-Logo h2{
+    margin-left: 5px;
+}
+
+#sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+#sidebar ul li {
+    padding: 1rem 0;
+}
+
+#sidebar ul li a {
+    color: #333;
+    text-decoration: none;
+}

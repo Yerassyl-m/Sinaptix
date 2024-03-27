@@ -22,6 +22,7 @@ function FooterMain() {
 
             <img className=""/>
 
+
         </div>
     );
 }

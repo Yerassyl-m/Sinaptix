@@ -51,7 +51,7 @@ form {
 label {
     display: block;
     margin-bottom: 10px;
-    margin-top: 10%;
+    margin-top: 5%;
     width: 100%;
 }
 
@@ -73,12 +73,10 @@ button[type="submit"] {
     color: #fff;
     border: none;
     cursor: pointer;
-}
-button[type="Login"]{
-    width: 60%;
-    padding: 10px;
-    margin-top: -120PX;
-    background-color: #E6EFF5;
-    border: #E6EFF5;
+    margin: 0 30%;
+
 }
 
+button[type="submit"]:hover {
+    background-color: #0056b3; /* Adjust hover color as needed */
+}

@@ -1,42 +1,52 @@
-*{
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
+
 .Header-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     border: 1px solid #D2D5DA;
-    color: #2395D1;
-    padding: 10px 250px;
+    padding: 10px 200px;
 }
-.Header-container h2,h6{
-    color: black;
+
+.Header-container h2, .Header-container h6 {
+    color: #343a40;
 }
-.Header-container h2{
-    font-family: Mulish,  sans-serif bold;
+
+.Header-container h2 {
+    font-family: 'Mulish', sans-serif;
     margin-left: 1rem;
-    font-size: 25.71px;
+    font-size: 25.7px;
 }
-.Header-container h6{
-    font-family: Golos, serif;
+
+.Header-container h6 {
+    font-family: 'Golos', serif;
     font-size: 18px;
 }
-.Header-SignIn{
-    padding-left: 10px;
-    border-radius: 10px;
-    width: 90px;
-    height: 40px;
-    background-color: #1677FF;
+
+.Header-SignIn {
+    padding: 8px 16px;
+    border-radius: 5px;
+    background-color: #007bff;
     color: white;
     cursor: pointer;
     display: flex;
+    align-items: center;
 }
-.Header-SignIn h6{
+
+.Header-SignIn:hover {
+    background-color: #0056b3;
+}
+
+.Header-SignIn h6 {
+    margin-left: 5px;
     color: white;
-    margin-left: 1px;
 }
-.Header-Login{
+
+.Header-Login {
     cursor: pointer;
 }
 
@@ -48,7 +58,7 @@
 
 .Header-SearchBar {
     flex-grow: 1;
-    margin: 0 20px;
+    margin: 0 30px;
 }
 
 .Header-Favourites,
@@ -70,17 +80,17 @@
 
 .Header-Favourites button:hover,
 .Header-card button:hover {
-
     color: #ffd700;
 }
-.Header-SignIn Link{
-    list-style-type: none;
+
+.Header-SignIn a {
+    text-decoration: none;
 }
 
 @media only screen and (max-width: 600px) {
     .Header-container {
         flex-direction: column;
-        padding: 10px 20px;
+        padding: 10px 10px;
     }
 
     .Header-Logo,

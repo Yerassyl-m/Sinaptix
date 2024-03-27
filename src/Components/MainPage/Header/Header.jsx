@@ -13,18 +13,18 @@ function Header() {
     return (
         <div className="Header-container">
             <div className='Header-Logo'>
-                <SiBookstack size={30}/>
+                <SiBookstack size={30} style={{color: "#1677FF"}} />
                 <h2>Sinaptix</h2>
             </div>
             <div className="Header-SearchBar">
                 <SearchBar />
             </div>
             <div className="Header-Favourites">
-                <CiHeart size={20}/>
+                <CiHeart size={20} style={{color: "#1677FF"}}/>
                 <h6>Favourites</h6>
             </div>
             <div className="Header-card">
-                <CiShoppingCart size={20}/>
+                <CiShoppingCart size={20} style={{color: "#1677FF"}}/>
                 <h6>Cart</h6>
             </div>
             <div className="Header-SignIn">

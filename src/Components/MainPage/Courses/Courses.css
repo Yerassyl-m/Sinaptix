@@ -1,5 +1,7 @@
 .Courses-Container{
     background-color: #F9FAFB;
+    display: flex;
+    justify-content: space-between;
 }
 
 .Courses-OneSide{

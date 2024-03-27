@@ -1,5 +1,6 @@
 import React from 'react';
 import './Courses.css'
+import image from '../../res/happy-young-woman-holding-laptop-gray-wall-transformed 2.png'
 
 function Courses() {
     return (
@@ -24,7 +25,7 @@ function Courses() {
             </div>
 
             <div className="Courses-Image">
-                {/*<img src={}/>*/}
+                <img src={image}/>
             </div>
 
         </div>
