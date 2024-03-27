@@ -1,65 +1,81 @@
-body {
-    font-family: Inter;
-    margin: 5% 50%;
-    padding: 0;
+/* SignIn.css */
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.image-border{
+    background-color: white;
+    width:295px;
+    height: 362px;
+    border-radius: 24px;
+}
+.left-container {
+    padding:20% 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #374785;
+}
+
+.right-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+.right-container h2{
+    text-align: center;
+}
+
+.sign-form-img {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.sign-form-img h1{
+    color: white;
+}
+
+.sign-form-img img {
+    width: 238.6px;
+    height: 294px;
+    margin-top: 12%;
 }
 
 form {
-    display: flex;
-    flex-direction: column;
-    width: 400px;
-    margin: 50px auto;
-    padding: 20px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-}
-
-h2 {
-    text-align: center;
-    margin-bottom: 20px;
-    margin-top: 1rem;
+    width: 150%;
+    max-width: 400px;
 }
 
 label {
     display: block;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
+    margin-top: 5%;
 }
 
-input,
+input[type="text"],
+input[type="email"],
+input[type="password"],
 select {
-    width: 90%;
+    width: 100%;
     padding: 10px;
+    margin-bottom: 15px;
     border: 1px solid #ccc;
-    border-radius: 3px;
-    font-size: 16px;
+    border-radius: 5px;
 }
 
-input[type="password"] {
-    box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    padding-right: 35px;
+button[type="submit"] {
+    width: 40%;
+    padding: 15px;
+    background-color: #007bff; /* Adjust color as needed */
+    color: #fff;
+    border: none;
+    cursor: pointer;
 }
 
-input[type="submit"] {
-    background-color: aliceblue;
-}
-
-
-input[type="submit"]:hover {
-    background-color: #45a049;
-}
-
-button{
-    width: 200px;
-    height: 40px;
-    background-color: #007AFF;
-    color: white;
-    border: #007AFF solid 1px;
-}
-
-button li{
-    list-style-type: none;
-
-
+button[type="submit"]:hover {
+    background-color: #0056b3; /* Adjust hover color as needed */
 }

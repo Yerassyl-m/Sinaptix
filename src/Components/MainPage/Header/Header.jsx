@@ -36,7 +36,7 @@ function Header() {
 
             </div>
             <div className="Header-Login">
-                <h6>Log in</h6>
+              <Link to="/LogIn"  style={{textDecoration:'none'}}><h6>Log in</h6></Link>
             </div>
 
         </div>
